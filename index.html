@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="apple-itunes-app" content="app-id=1146830911">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#f85109">
+
+    <title>BOND FLARE</title>
+
+    <script>
+        function getUrlParameter(name, url) {
+            if (!url) {
+                url = window.location.href;
+            }
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regexp = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regexp.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        var p = getUrlParameter('p');
+    </script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/blockrain.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link href="img/logo.png" rel="icon">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1" data-offset="100">
+
+    <span id="close-book-button">X</span>
+    <iframe src="book.html"></iframe>
+
+    <div class="main-page">
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="">
+                        <img src="img/logo.png" alt="BOND FLARE Logo">
+                    </a>
+                    <p class="navbar-text">
+                        <strong>BOND FLARE</strong>
+                    </p>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">ABOUT US</a></li>
+                        <li><a href="#what_is">WHAT IS BOND FLARE?</a></li>
+                        <li><a href="#believe">PLAY SOME TETRIS!</a></li>
+                        <li><a href="" data-toggle="modal" data-target="#modal-sign-up">SIGN UP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+
+            <div class="container">
+
+                <section class="scrollify" id="about" data-section-name="aboutus">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="paragraph hero-paragraph">
+                                <span class="first-hero-paragraph">Bond Flare is an idea to meet now.</span>
+                                <span class="second-hero-paragraph">The app, which gives us the opportunity to make it reality.</span>
+                                <span class="third-hero-paragraph">Don’t waste time on chatting.</span>
+                                <span class="fourth-hero-paragraph"><strong>Life is a game. Don’t play alone.</strong></span>
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-12 centered-content">
+                                    <img class="mark-icon" src="img/mark1.svg" alt="Mark1">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 centered-content apple-button-container">
+                                    <a href="https://itunes.apple.com/sc/app/bond-flare/id1146830911/">
+                                        <img class="button-app-store" src="img/button1.jpg" alt="Button App Store">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 centered-content">
+                                    <img class="button-google-play" src="img/button2-coming_soon.jpg" alt="Button Google Play">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="hidden-section">
+                    <div class="row">
+                        <div class="col-md-6 without-padding-first">
+                            <div class="paragraph-container-first">
+                                <p class="paragraph bonus-content">Some people may ask how did it all started?
+                                    <br> Well answer is more complicated that the idea itself. My name is Oskar and this is my story. I was 21, when this idea f instant meeting with other people popped into my head. Nowadays we are living in times when speaking to someone, who you don’t know is weird. I don’t truly understand it. In my opinion contact with new people open us up for new idea, possibility, situation or just pleasant time. We can write with others for hours sitting in one place on our phone, but talking in reality is weird? Where do we end up in this constant run? At that point I was pretty frustrated that I was on holidays and couldn’t find someone, who would like to just speak with me for 20 minutes, while drinking coffee. Of course I could sit and wait till someone will reach to me via Facebook, Tinder or whatever. I also could wait for someone to do it for me. But I didn’t want to accept it. I live here one. I do want to be remembered by people. I do want to have adventures, meet new people, love and be loved and for certain I don’t want to ever again eat meal alone or drink delicious coffee.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 without-padding-second">
+                            <div class="paragraph-container-second">
+                                <p class="paragraph bonus-content">So I started to imagine an app for mobile device. Something new, something fresh. At the same time I had many struggles of how to do it without passing information to other of my location. Well the answer was easier that I expected. When we are in the city all I have to do is to find someone, who is also willing to meet at the same time. That’s why the session in one location in only 12 minutes. The second issue was that scanning everybody around is something that Google or Facebook can do with huge computing power, but not a small start up. That’s why I thought that 12 people are enough to find someone, who will be our new buddy. Other thing was how long should it take for us to answer the meeting request? 1 minute, 5 minutes, 33 second? Well I read a lot about decision-making process. If we consider that we have only small amount of time for choosing the person, who we will meet 10 minutes from now the thing, which is most important is our intuition. That is why we have only 12 second to answer the request. Later is just too late. </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="hidden-section">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h1 class="bonus-title">IT IS<br>ONLY</h1>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="paragraph bonus-content">After that I came up with another problem and another solution. How will this people recognize on the street in meeting point if most of them have weird photos on their Facebook profile. Well every 24 hours if you want to send your flare you have to make a photo of how you look today. In order to prevent weird stuff – if you know what I mean – we added facial recognition. Without face on the photo you just can’t do the photo. Meeting point was also really problematic. At first it has to be safe. At the same time it has to be near you and me. The other thing is that I can’t just give opportunity of choosing the place of meeting to any of user. And then it hit me. What if my app will do it for us? What if based on your locations it will find the perfect spot for our first meeting? It will be safe as the place is some café or pub. It will be ”neutral” as neither you or I chose the place. And most importantly – the place of meeting doesn’t really matter. The thing that really matters is that we are going to meet! No more chatting. No more waiting for something to happen. No more thinking of where should we go together on first assemble. Just we choose either other and are heading for the unknown.
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <h1 class="bonus-title">THE<br>BEGINNING</h1>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="scrollify" id="what_is" data-section-name="whatisbondflare">
+                    <div class="row standard-scroll">
+                        <h1 class="section-title">What is Bond Flare?
+						<span class="separator"></span>
+					</h1>
+                        <div class="col-md-6">
+                            <h2 class="title-screen1">Take a selfie, post a note and flare!
+							<span class="new-line-screen1">Sounds too simple? Well it is that simple.</span>
+						</h2>
+                        </div>
+                        <div class="col-md-6 centered-content">
+                            <img class="app-screen" src="img/screen1.jpg" alt="Screen1">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="scrollify" data-section-name="whatisbondflare">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h1 class="title-vertical-centered">Choose or<br>be chosen!</h1>
+                        </div>
+                        <div class="col-md-4 centered-content">
+                            <img class="app-screen" src="img/screen2.jpg" alt="Screen2">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="title-vertical-centered">
+                                <h4>It does not matter how you end up on coffee.</h4>
+                                <h2 class="">What matters is that you did!</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="scrollify" data-section-name="whatisbondflare">
+                    <div class="row">
+                        <div class="col-md-4 centered-content">
+                            <img class="app-screen" src="img/screen3.jpg" alt="Screen3">
+                        </div>
+                        <div class="col-md-8">
+                            <span class="first_span_header">Don’t think about a “neutral” ground.</span>
+                            <span class="second_span_header">We do it for you.</span>
+                            <span class="third_span_header">Based on your locations we choose the perfect place for your first meeting.</span>
+                            <span class="fourth_span_header">All you have to do is be there!</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="scrollify" id="believe" data-section-name="whydowebelieve">
+                    <div class="row standard-scroll">
+                        <h1 class="section-title-believe">
+							<span class="separator"></span>
+						</h1>
+                        <div class="col-ls-12 game" style="max-width: 60%; margin: 0 auto;"></div>
+                    </div>
+                </section>
+
+            </div>
+
+        </main>
+
+        <footer>
+
+            <nav class="navbar navbar-default navbar-fixed-bottom navbar-footer">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="" data-toggle="modal" data-target="#modal-contact-us">CONTACT US</a>
+                            </li>
+                            <li>
+                                <a href="" data-toggle="modal" data-target="#modal-terms">TERMS</a>
+                            </li>
+                            <li>
+                                <a href="" data-toggle="modal" data-target="#modal-privacy">PRIVACY</a>
+                            </li>
+                            <li>
+                                <a href="" data-toggle="modal" data-target="#modal-sign-up">SIGN UP</a>
+                            </li>
+                            <li>
+                                <a class="instagram" href="https://www.instagram.com/bondflare/">
+                                    <i class="social-icons fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="youtube" href="https://www.youtube.com/channel/UCNeiVojr1_lJoC1mSq7Nx5w">
+                                    <i class="social-icons fa fa-youtube-play" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="twitter" href="https://twitter.com/BondFlareApp">
+                                    <i class="social-icons fa fa-twitter-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="facebook" href="https://www.facebook.com/BondFlare/">
+                                    <i class="social-icons fa fa-facebook-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </footer>
+
+        <!-- Modals -->
+
+        <!-- SIGN UP -->
+        <div class="modal fade" id="modal-sign-up" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">SIGN UP</h4>
+                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">E-mail address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail" required>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" required>I am a user
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" required>We are company
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT US -->
+        <div class="modal fade" id="modal-contact-us" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">CONTACT US</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="contact-paragraph">
+                            <img class="contact-logo" src="img/logo.png" alt="BOND FLARE Logo">
+                        </p>
+                        <p class="contact-paragraph contact-title">
+                            <strong>BOND FLARE</strong>
+                        </p>
+                        <p class="contact-paragraph">
+                            <strong>E-mail: </strong>
+                            <a href="mailto:office@bondflare.com">office@bondflare.com</a>
+                        </p>
+                        <p class="contact-paragraph">
+                            <strong>Adress: </strong>Kredytowa 2/41 Street,
+                            <br>00-062 Warszawa
+                        </p>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TERMS -->
+        <div class="modal fade" id="modal-terms" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">TERMS</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="contact-paragraph contact-title">
+                            <strong>BOND FLARE</strong>
+                        </p>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRIVACY -->
+        <div class="modal fade" id="modal-privacy" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">PRIVACY</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="contact-paragraph contact-title">
+                            <strong>BOND FLARE</strong>
+                        </p>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/8487f6a2c2.js"></script>
+    <script src="js/jquery.scrollify.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/blockrain.jquery.js"></script>
+
+    <script>
+        if (p === "ios") {
+            var
+                hiddenButton = document.getElementsByClassName("button-google-play")[0],
+                appleButton = document.getElementsByClassName("button-app-store")[0],
+                appleButtonContainer = document.getElementsByClassName("apple-button-container")[0];
+            hiddenButton.style.display = "none";
+            appleButton.style.float = "none";
+            appleButtonContainer.classList.remove("col-xs-12", "col-sm-6", "col-md-6");
+            appleButtonContainer.classList.add("col-xs-12", "col-sm-12", "col-md-12");
+        }
+
+        $('.game').blockrain();
+    </script>
+</body>
+
+</html>
