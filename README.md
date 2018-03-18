@@ -5,7 +5,7 @@ Landing page created from PSD project for a startup with bonus (hidden "easter e
 Can you find it? ;-)  
 _(just click the big, black logo!)_
 
-Also tetris game made in JavaScript works on this page!
+Also tetris game made in JavaScript works on this page! Check it ;-)
 
 Check this on __[https://warmaxis.github.io/Landing_page_with_bonus_hidden_section/](https://warmaxis.github.io/Landing_page_with_bonus_hidden_section/)__  
 or in production version [https://www.bondflare.com/](https://www.bondflare.com/)
